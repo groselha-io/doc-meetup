@@ -1,8 +1,21 @@
 import React from 'react';
 import './Button.css';
+import PropTypes from 'prop-types'
 
-
+/**
+ * This component is a simple button. Use with wisdom.
+ * @visibleName Button
+ * @version 1.0.0
+ */
 export default class Button extends React.Component {
+    static propTypes = {
+        /** This prop show how state is the button. You must set the state props. */
+        state: PropTypes.oneOf(['default']),
+      }
+      static defaultProps = {
+        state: ""
+      }
+
   render() {
     return (
       <div className="pd-onhover-parent button">
