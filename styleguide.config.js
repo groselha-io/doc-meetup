@@ -1,3 +1,12 @@
 module.exports = {
-    components: 'src/components/**/*.js'
+    sections:[
+      {
+        name: "Introduction",
+        content: "docs/intro.md"
+      },
+      {
+        name:'Components',
+        components: 'src/components/**/*.js'
+      }
+    ],
   };
