@@ -10,7 +10,7 @@ import PropTypes from 'prop-types'
 export default class Button extends React.Component {
     static propTypes = {
         /** This prop show how state is the button. You must set the state props. */
-        state: PropTypes.oneOf(['default']),
+        state: PropTypes.string,
       }
       static defaultProps = {
         state: ""
