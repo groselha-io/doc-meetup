@@ -6,7 +6,8 @@ module.exports = {
       },
       {
         name:'Components',
-        components: 'src/components/**/*.js'
+        components: 'src/components/**/*.js',
+        content: 'docs/componentsIntro.md'
       }
     ],
   };
