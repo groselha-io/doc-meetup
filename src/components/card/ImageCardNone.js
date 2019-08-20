@@ -1,8 +1,8 @@
 import React from 'react';
-import './imagecardnone.css';
+import './ImageCardNone.css';
 
 
-export default class Imagecardnone extends React.Component {
+export default class ImageCardNone extends React.Component {
   render() {
     return (
       <div className="pd-onhover-parent imagecardnone">
